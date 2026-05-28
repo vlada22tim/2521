@@ -11,13 +11,11 @@ Feature: Login functionality
   And insert username
   And insert password
 
-
   Scenario: Invalid login functionality
      Given user insert username "Admin"
      And user insert password "admin123"
     When user clicks on Login button
     And Invalid credentials
-
 
     Scenario: Click on admin link
       Given user insert username "Admin"
