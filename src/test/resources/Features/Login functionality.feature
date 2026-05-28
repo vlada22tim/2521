@@ -1,7 +1,6 @@
 @UI @Run
 Feature: Login functionality
 
-
     Scenario: Valid login functionality
     Given user insert username "Admin"
     And user insert password "admin123"
